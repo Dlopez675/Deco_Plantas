@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 80px;
+}
+p{
+    font-size: 20px;
+}
+header {
+    background-image: url("../imgs/fondo.jpg");
+    /* The image used */
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 300px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+.container {
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    background-color: #804000;
+    text-align: center;
+}
